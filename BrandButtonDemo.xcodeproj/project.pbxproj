@@ -13,27 +13,13 @@
 		4643D40C2B77AED1000E7AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4643D40A2B77AED1000E7AA3 /* Main.storyboard */; };
 		4643D40E2B77AED3000E7AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4643D40D2B77AED3000E7AA3 /* Assets.xcassets */; };
 		4643D4112B77AED3000E7AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4643D40F2B77AED3000E7AA3 /* LaunchScreen.storyboard */; };
-		4643D41C2B77AED3000E7AA3 /* BrandButtonDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4643D41B2B77AED3000E7AA3 /* BrandButtonDemoTests.swift */; };
-		4643D4262B77AED3000E7AA3 /* BrandButtonDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4643D4252B77AED3000E7AA3 /* BrandButtonDemoUITests.swift */; };
-		4643D4282B77AED3000E7AA3 /* BrandButtonDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4643D4272B77AED3000E7AA3 /* BrandButtonDemoUITestsLaunchTests.swift */; };
+		464E819B2B7A3F58000C518E /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464E819A2B7A3F58000C518E /* UIButton+Extension.swift */; };
+		4666DE842B79134E00C2F8BE /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4666DE832B79134E00C2F8BE /* BaseButtonStyle.swift */; };
+		46A1CC8D2B788D1300D61B9B /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1CC8C2B788D1300D61B9B /* BrandButton.swift */; };
+		46A1CC8F2B788D5F00D61B9B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1CC8E2B788D5F00D61B9B /* Colors.swift */; };
+		46A1CC912B788E3D00D61B9B /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A1CC902B788E3D00D61B9B /* Colours.xcassets */; };
+		46A1CC962B78C7A500D61B9B /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1CC952B78C7A500D61B9B /* Bundle.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4643D4182B77AED3000E7AA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4643D3F92B77AED1000E7AA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4643D4002B77AED1000E7AA3;
-			remoteInfo = BrandButtonDemo;
-		};
-		4643D4222B77AED3000E7AA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4643D3F92B77AED1000E7AA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4643D4002B77AED1000E7AA3;
-			remoteInfo = BrandButtonDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4643D4012B77AED1000E7AA3 /* BrandButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,29 +30,16 @@
 		4643D40D2B77AED3000E7AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4643D4102B77AED3000E7AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4643D4122B77AED3000E7AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4643D4172B77AED3000E7AA3 /* BrandButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrandButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4643D41B2B77AED3000E7AA3 /* BrandButtonDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonDemoTests.swift; sourceTree = "<group>"; };
-		4643D4212B77AED3000E7AA3 /* BrandButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrandButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4643D4252B77AED3000E7AA3 /* BrandButtonDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonDemoUITests.swift; sourceTree = "<group>"; };
-		4643D4272B77AED3000E7AA3 /* BrandButtonDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		464E819A2B7A3F58000C518E /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		4666DE832B79134E00C2F8BE /* BaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
+		46A1CC8C2B788D1300D61B9B /* BrandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
+		46A1CC8E2B788D5F00D61B9B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		46A1CC902B788E3D00D61B9B /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
+		46A1CC952B78C7A500D61B9B /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4643D3FE2B77AED1000E7AA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4643D4142B77AED3000E7AA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4643D41E2B77AED3000E7AA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				4643D4032B77AED1000E7AA3 /* BrandButtonDemo */,
-				4643D41A2B77AED3000E7AA3 /* BrandButtonDemoTests */,
-				4643D4242B77AED3000E7AA3 /* BrandButtonDemoUITests */,
 				4643D4022B77AED1000E7AA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				4643D4012B77AED1000E7AA3 /* BrandButtonDemo.app */,
-				4643D4172B77AED3000E7AA3 /* BrandButtonDemoTests.xctest */,
-				4643D4212B77AED3000E7AA3 /* BrandButtonDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +71,7 @@
 				4643D4042B77AED1000E7AA3 /* AppDelegate.swift */,
 				4643D4062B77AED1000E7AA3 /* SceneDelegate.swift */,
 				4643D4082B77AED1000E7AA3 /* ViewController.swift */,
+				464E819C2B7A3F88000C518E /* BrandButton */,
 				4643D40A2B77AED1000E7AA3 /* Main.storyboard */,
 				4643D40D2B77AED3000E7AA3 /* Assets.xcassets */,
 				4643D40F2B77AED3000E7AA3 /* LaunchScreen.storyboard */,
@@ -110,21 +80,33 @@
 			path = BrandButtonDemo;
 			sourceTree = "<group>";
 		};
-		4643D41A2B77AED3000E7AA3 /* BrandButtonDemoTests */ = {
+		464E819C2B7A3F88000C518E /* BrandButton */ = {
 			isa = PBXGroup;
 			children = (
-				4643D41B2B77AED3000E7AA3 /* BrandButtonDemoTests.swift */,
+				46A1CC932B78B15600D61B9B /* Resources */,
+				46A1CC942B78C78300D61B9B /* Theme */,
+				46A1CC8C2B788D1300D61B9B /* BrandButton.swift */,
+				4666DE832B79134E00C2F8BE /* BaseButtonStyle.swift */,
+				464E819A2B7A3F58000C518E /* UIButton+Extension.swift */,
 			);
-			path = BrandButtonDemoTests;
+			path = BrandButton;
 			sourceTree = "<group>";
 		};
-		4643D4242B77AED3000E7AA3 /* BrandButtonDemoUITests */ = {
+		46A1CC932B78B15600D61B9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4643D4252B77AED3000E7AA3 /* BrandButtonDemoUITests.swift */,
-				4643D4272B77AED3000E7AA3 /* BrandButtonDemoUITestsLaunchTests.swift */,
+				46A1CC902B788E3D00D61B9B /* Colours.xcassets */,
 			);
-			path = BrandButtonDemoUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		46A1CC942B78C78300D61B9B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				46A1CC8E2B788D5F00D61B9B /* Colors.swift */,
+				46A1CC952B78C7A500D61B9B /* Bundle.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +129,6 @@
 			productReference = 4643D4012B77AED1000E7AA3 /* BrandButtonDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4643D4162B77AED3000E7AA3 /* BrandButtonDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4643D42E2B77AED3000E7AA3 /* Build configuration list for PBXNativeTarget "BrandButtonDemoTests" */;
-			buildPhases = (
-				4643D4132B77AED3000E7AA3 /* Sources */,
-				4643D4142B77AED3000E7AA3 /* Frameworks */,
-				4643D4152B77AED3000E7AA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4643D4192B77AED3000E7AA3 /* PBXTargetDependency */,
-			);
-			name = BrandButtonDemoTests;
-			productName = BrandButtonDemoTests;
-			productReference = 4643D4172B77AED3000E7AA3 /* BrandButtonDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4643D4202B77AED3000E7AA3 /* BrandButtonDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4643D4312B77AED3000E7AA3 /* Build configuration list for PBXNativeTarget "BrandButtonDemoUITests" */;
-			buildPhases = (
-				4643D41D2B77AED3000E7AA3 /* Sources */,
-				4643D41E2B77AED3000E7AA3 /* Frameworks */,
-				4643D41F2B77AED3000E7AA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4643D4232B77AED3000E7AA3 /* PBXTargetDependency */,
-			);
-			name = BrandButtonDemoUITests;
-			productName = BrandButtonDemoUITests;
-			productReference = 4643D4212B77AED3000E7AA3 /* BrandButtonDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +141,6 @@
 				TargetAttributes = {
 					4643D4002B77AED1000E7AA3 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					4643D4162B77AED3000E7AA3 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 4643D4002B77AED1000E7AA3;
-					};
-					4643D4202B77AED3000E7AA3 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 4643D4002B77AED1000E7AA3;
 					};
 				};
 			};
@@ -220,8 +158,6 @@
 			projectRoot = "";
 			targets = (
 				4643D4002B77AED1000E7AA3 /* BrandButtonDemo */,
-				4643D4162B77AED3000E7AA3 /* BrandButtonDemoTests */,
-				4643D4202B77AED3000E7AA3 /* BrandButtonDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +170,7 @@
 				4643D4112B77AED3000E7AA3 /* LaunchScreen.storyboard in Resources */,
 				4643D40E2B77AED3000E7AA3 /* Assets.xcassets in Resources */,
 				4643D40C2B77AED1000E7AA3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4643D4152B77AED3000E7AA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4643D41F2B77AED3000E7AA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				46A1CC912B788E3D00D61B9B /* Colours.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,42 +182,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4643D4092B77AED1000E7AA3 /* ViewController.swift in Sources */,
+				46A1CC962B78C7A500D61B9B /* Bundle.swift in Sources */,
 				4643D4052B77AED1000E7AA3 /* AppDelegate.swift in Sources */,
 				4643D4072B77AED1000E7AA3 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4643D4132B77AED3000E7AA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4643D41C2B77AED3000E7AA3 /* BrandButtonDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4643D41D2B77AED3000E7AA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4643D4262B77AED3000E7AA3 /* BrandButtonDemoUITests.swift in Sources */,
-				4643D4282B77AED3000E7AA3 /* BrandButtonDemoUITestsLaunchTests.swift in Sources */,
+				4666DE842B79134E00C2F8BE /* BaseButtonStyle.swift in Sources */,
+				464E819B2B7A3F58000C518E /* UIButton+Extension.swift in Sources */,
+				46A1CC8D2B788D1300D61B9B /* BrandButton.swift in Sources */,
+				46A1CC8F2B788D5F00D61B9B /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4643D4192B77AED3000E7AA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4643D4002B77AED1000E7AA3 /* BrandButtonDemo */;
-			targetProxy = 4643D4182B77AED3000E7AA3 /* PBXContainerItemProxy */;
-		};
-		4643D4232B77AED3000E7AA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4643D4002B77AED1000E7AA3 /* BrandButtonDemo */;
-			targetProxy = 4643D4222B77AED3000E7AA3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4643D40A2B77AED1000E7AA3 /* Main.storyboard */ = {
@@ -446,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +372,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,78 +383,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4643D42F2B77AED3000E7AA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.identifier.appname.BrandButtonDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrandButtonDemo.app/BrandButtonDemo";
-			};
-			name = Debug;
-		};
-		4643D4302B77AED3000E7AA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.identifier.appname.BrandButtonDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrandButtonDemo.app/BrandButtonDemo";
-			};
-			name = Release;
-		};
-		4643D4322B77AED3000E7AA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.identifier.appname.BrandButtonDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BrandButtonDemo;
-			};
-			name = Debug;
-		};
-		4643D4332B77AED3000E7AA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.identifier.appname.BrandButtonDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BrandButtonDemo;
 			};
 			name = Release;
 		};
@@ -575,24 +403,6 @@
 			buildConfigurations = (
 				4643D42C2B77AED3000E7AA3 /* Debug */,
 				4643D42D2B77AED3000E7AA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4643D42E2B77AED3000E7AA3 /* Build configuration list for PBXNativeTarget "BrandButtonDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4643D42F2B77AED3000E7AA3 /* Debug */,
-				4643D4302B77AED3000E7AA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4643D4312B77AED3000E7AA3 /* Build configuration list for PBXNativeTarget "BrandButtonDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4643D4322B77AED3000E7AA3 /* Debug */,
-				4643D4332B77AED3000E7AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
